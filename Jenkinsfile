@@ -5,7 +5,7 @@ pipeline {
         stage('Development Environment') {
             steps {
                 echo 'Hello World Development'
-                bat 'git clone https://github.com/Pavith-web/Demo3.git'
+                bat 'mkdir C:\\ProgramData\\Jenkins\\newFile'
             }
         }
         stage('QA') {
